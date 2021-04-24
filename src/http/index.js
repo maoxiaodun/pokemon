@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const baseHttp = axios.create({
-    timeout : 100000
+    timeout : 10000
 })
 
 export const get =  (url,params) => {
