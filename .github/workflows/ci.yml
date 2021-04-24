@@ -1,4 +1,4 @@
-name: Blog CI/CD
+name: pokemon CI/CD
 
 on:
   push:
