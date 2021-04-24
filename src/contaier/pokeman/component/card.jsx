@@ -22,7 +22,7 @@ export default class  Card extends  React.Component {
          })
       }
 
-      handleClick =  () => this.fetchData(`https://pokeapi.co/api/v2/pokemon/${indexArray[Math.floor(Math.random() *2)]}/`);
+      handleClick =  () => this.fetchData(`https://pokeapi.co/api/v2/pokemon/${indexArray[Math.floor(Math.random() *3)]}/`);
       
       render(){
           const {isRandom} = this.props;
